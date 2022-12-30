@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const respone = await fetch('http://jsonplaceholder.typecode.com/users')
+    const respone = await fetch('https://jsonplaceholder.typicode.com/users')
     const data = await respone.json()
     this.setState(()=> {
       return {
