@@ -36,7 +36,7 @@ class App extends Component {
       
           this.setState(()=> {
             return {
-              searchField
+              searchField 
             }
           })
            
